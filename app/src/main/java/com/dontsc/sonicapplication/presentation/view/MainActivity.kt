@@ -1,7 +1,8 @@
-package com.dontsc.sonicapplication
+package com.dontsc.sonicapplication.presentation.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.dontsc.sonicapplication.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
