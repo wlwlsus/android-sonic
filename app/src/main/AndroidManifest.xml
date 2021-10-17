@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dontsc.sonicapplication">
+    package="com.dontsc.sonicapplication" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:allowBackup="true"
+        android:name=".presentation.App"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher_carrot"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_carrot_round"
         android:supportsRtl="true"
-        android:theme="@style/CarrotTheme">
+        android:textAllCaps="false"
+        android:theme="@style/CarrotTheme"
+        android:usesCleartextTraffic="true" >
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".presentation.view.LoadingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.view.InitActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
