@@ -1,6 +1,7 @@
 <h1>콩콩마켓(당근마켓 Clone Coding)</h1> 
 
-- Developer : dontsc0814@gmail.com
+- Developer : Wonjoon Seong
+- E-mail : dontsc0814@gmail.com
 
 ![image](https://user-images.githubusercontent.com/58021968/137633396-42ec1988-53cd-4001-b88c-7eeb024a9857.png)
 ![image](https://user-images.githubusercontent.com/58021968/137634123-d185af6d-a815-4582-994a-4b3346c7d824.png)
