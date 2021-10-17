@@ -6,7 +6,7 @@
 ![image](https://user-images.githubusercontent.com/58021968/137634123-d185af6d-a815-4582-994a-4b3346c7d824.png)
 
 ## Introduction
-1. It is a project to clone the 'Carrot Market' application in the Play Store.
+1. It is a project to clone-coded the 'Carrot Market' application in the Play Store.
 2. Users can register and sell their used products.
 3. Users can communicate with other users around them.
 4. The application is not used for commercial purposes.
