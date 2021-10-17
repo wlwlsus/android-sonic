@@ -10,4 +10,10 @@ class LoadingActivity : AppCompatActivity() {
         setContentView(R.layout.activity_loading)
     }
 
+    override fun onBackPressed() {
+        super.onBackPressed()
+        moveTaskToBack(true)
+        finishAndRemoveTask()
+        android.os.Process.killProcess(android.os.Process.myPid())
+    }
 }
