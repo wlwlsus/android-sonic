@@ -1,4 +1,4 @@
-<h1>콩콩마켓(당근마켓 Clone Coding)</h1> 
+# 콩콩마켓(당근마켓 Clone Coding)
 
 - Developer : Wonjoon Seong
 - E-mail : dontsc0814@gmail.com
@@ -38,7 +38,6 @@
 ## Architecture
 - Based on MVVM and Clean Architecture.
 
-<p align="center">
+
 <img src="https://user-images.githubusercontent.com/58021968/125732196-fde254a4-0f05-4082-875a-55bf1feb5aed.png" height="500"/>
-</p>
 <br>
