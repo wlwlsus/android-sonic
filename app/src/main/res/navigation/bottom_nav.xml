@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/bottom_nav">
-
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.dontsc.sonicapplication.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/townFragment"
+        android:name="com.dontsc.sonicapplication.TownFragment"
+        android:label="fragment_town"
+        tools:layout="@layout/fragment_town" />
+    <fragment
+        android:id="@+id/aroundFragment"
+        android:name="com.dontsc.sonicapplication.AroundFragment"
+        android:label="fragment_around"
+        tools:layout="@layout/fragment_around" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.dontsc.sonicapplication.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/myPageFragment"
+        android:name="com.dontsc.sonicapplication.MyPageFragment"
+        android:label="fragment_my_page"
+        tools:layout="@layout/fragment_my_page" />
 </navigation>
