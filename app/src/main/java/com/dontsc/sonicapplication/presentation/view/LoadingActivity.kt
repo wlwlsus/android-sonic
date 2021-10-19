@@ -2,9 +2,7 @@ package com.dontsc.sonicapplication.presentation.view
 
 
 import android.widget.Toast
-import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.dontsc.sonicapplication.R
 import com.dontsc.sonicapplication.databinding.ActivityLoadingBinding
@@ -45,6 +43,10 @@ class LoadingActivity :
                 Toast.makeText(this@LoadingActivity, "Go to Alim Page", Toast.LENGTH_SHORT).show()
             }
         }
+
+        val navController = findNavController(R.id.nav_host_fragment)
+        binding.bottomNav.setupWithNavController(navController)
+
     }
 
 
