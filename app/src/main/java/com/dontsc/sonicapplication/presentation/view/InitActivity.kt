@@ -4,16 +4,17 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.dontsc.sonicapplication.R
+import com.dontsc.sonicapplication.databinding.ActivityInitBinding
+import com.dontsc.sonicapplication.databinding.ActivityLoadingBinding
+import com.dontsc.sonicapplication.presentation.view.base.UtilityBase
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.Default
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
-class InitActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_init)
-    }
+class InitActivity :
+    UtilityBase.BaseAppCompatActivity<ActivityInitBinding>(R.layout.activity_init) {
+    override fun ActivityInitBinding.onCreate() = Unit
 
     override fun onResume() {
         super.onResume()
